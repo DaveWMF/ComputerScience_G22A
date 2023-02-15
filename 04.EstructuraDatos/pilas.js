@@ -50,7 +50,7 @@ stack.push(3)
 stack.print
 console.log(stack.print())
 stack.push(4)
-stack.print
+stack.print()
 console.log(stack.print())
 console.log(stack.size())
 stack.printStack()
