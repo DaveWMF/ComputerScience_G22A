@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 1</title>
+</head>
+<body>
+    
+    <article>
+        <h2>Agregar Alumno</h2>
+        <input id="nombre" type="text" placeholder="Nombre">
+        <input id="aP" type="text" placeholder="Apellido Paterno">
+        <input id="aM" type="text" placeholder="Apellido Materno">
+        <input id="calificacion" type="number" max="10" min="0" placeholder="Calificación">
+        <button onclick="agregarAlumno()">Agregar</button>
+    </article>
+
+    <article>
+        <h2>Lista de alumnos</h2>
+        <span><input id="cbAprobados" type="checkbox" onclick="mostrarAlumnos()"> Aprobados </span>
+        <span><input id="cbReprobados" type="checkbox" onclick="mostrarAlumnos()"> Reprobados </span>
+        <section id="alumnos">
+
+        </section>
+    </article>
+
+    <article>
+        <h2>Aprobados</h2>
+        <section id="alumnosA">
+
+        </section>
+    </article>
+
+    <article>
+        <h2>Reprobados</h2>
+        <section id="alumnosR">
+
+        </section>
+    </article>
+
+    <script src="main.js"></script>
+</body>
+</html>
